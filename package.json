@@ -1,0 +1,58 @@
+{
+  "name": "monkeystaff-app",
+  "version": "0.0.1",
+  "description": "MonkeyStaff App",
+  "author": "Guillaume Libersat <glibersat@sigill.org>",
+  "license": "GPL",
+  "nativescript": {
+    "id": "com.singesavant.monkeystaff",
+    "templateVersion": "v2",
+    "tns-android": {
+      "version": "6.0.0"
+    },
+    "tns-ios": {
+      "version": "6.0.1"
+    }
+  },
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-export-default-from": "^7.8.3",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "@babel/preset-react": "^7.9.4",
+    "@babel/preset-stage-1": "^7.8.3",
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "@nativescript/theme": "^2.2.1",
+    "@react-native-community/masked-view": "^0.1.7",
+    "babel-preset-expo": "^8.1.0",
+    "file-loader": "^6.0.0",
+    "image-webpack-loader": "^6.0.0",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "nativescript": "^6.5.0",
+    "nativescript-directions": "^1.3.1",
+    "nativescript-fonticon": "^2.0.0",
+    "nativescript-phone": "^1.4.1",
+    "nativescript-vue": "^2.5.0",
+    "package.json": "^2.0.1",
+    "react": "^16.13.1",
+    "react-native-gesture-handler": "^1.6.1",
+    "react-native-paper": "^3.7.0",
+    "react-native-reanimated": "^1.7.1",
+    "react-native-safe-area-context": "^0.7.3",
+    "react-native-screens": "^2.4.0",
+    "react-native-vector-icons": "^6.6.0",
+    "react-navigation-material-bottom-tabs": "^2.2.10",
+    "tns-core-modules": "^6.0.0",
+    "vue-native-router": "^0.1.1",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "nativescript-dev-webpack": "^1.0.0",
+    "nativescript-vue-template-compiler": "^2.5.0",
+    "nativescript-worker-loader": "~0.9.0",
+    "node-sass": "^4.9.2",
+    "vue-loader": "^15.4.0"
+  }
+}
